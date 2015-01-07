@@ -14,6 +14,9 @@
 		A93392431A40A8B800919DA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93392421A40A8B800919DA3 /* Images.xcassets */; };
 		A93392461A40A8B800919DA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93392441A40A8B800919DA3 /* LaunchScreen.xib */; };
 		A93392521A40A8B800919DA3 /* CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93392511A40A8B800919DA3 /* CollectionViewTests.swift */; };
+		A93392631A40B85500919DA3 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93392611A40B85500919DA3 /* myCell.swift */; };
+		A93392641A40B85500919DA3 /* myCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93392621A40B85500919DA3 /* myCell.xib */; };
+		A93392681A40BBBB00919DA3 /* iphone.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A93392671A40BBBB00919DA3 /* iphone.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		A933924B1A40A8B800919DA3 /* CollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93392501A40A8B800919DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A93392511A40A8B800919DA3 /* CollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTests.swift; sourceTree = "<group>"; };
+		A93392611A40B85500919DA3 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		A93392621A40B85500919DA3 /* myCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myCell.xib; sourceTree = "<group>"; };
+		A93392671A40BBBB00919DA3 /* iphone.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,13 @@
 			children = (
 				A93392381A40A8B800919DA3 /* AppDelegate.swift */,
 				A933923D1A40A8B800919DA3 /* ViewController.swift */,
+				A93392611A40B85500919DA3 /* myCell.swift */,
 				A933923F1A40A8B800919DA3 /* Main.storyboard */,
 				A93392421A40A8B800919DA3 /* Images.xcassets */,
 				A93392441A40A8B800919DA3 /* LaunchScreen.xib */,
 				A933923A1A40A8B800919DA3 /* CollectionView.xcdatamodeld */,
 				A93392361A40A8B800919DA3 /* Supporting Files */,
+				A93392621A40B85500919DA3 /* myCell.xib */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 		A93392361A40A8B800919DA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A93392671A40BBBB00919DA3 /* iphone.JPG */,
 				A93392371A40A8B800919DA3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,6 +205,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93392411A40A8B800919DA3 /* Main.storyboard in Resources */,
+				A93392641A40B85500919DA3 /* myCell.xib in Resources */,
+				A93392681A40BBBB00919DA3 /* iphone.JPG in Resources */,
 				A93392461A40A8B800919DA3 /* LaunchScreen.xib in Resources */,
 				A93392431A40A8B800919DA3 /* Images.xcassets in Resources */,
 			);
@@ -216,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A933923E1A40A8B800919DA3 /* ViewController.swift in Sources */,
+				A93392631A40B85500919DA3 /* myCell.swift in Sources */,
 				A933923C1A40A8B800919DA3 /* CollectionView.xcdatamodeld in Sources */,
 				A93392391A40A8B800919DA3 /* AppDelegate.swift in Sources */,
 			);
